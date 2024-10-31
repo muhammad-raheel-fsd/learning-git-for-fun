@@ -1,3 +1,5 @@
+=============== Basic Commands ================
+
 git -v (To check the git version)
 
 git config --global user.name "username" (Set global git username configuration)
@@ -8,3 +10,17 @@ git init (Initiate empty git repository)
 
 git status (Checks the status of the repository e.g On what branch, Number of commits, tracked and untracked files in repository)
 
+=============== Staging and committing Files ================
+__"Staging means adding files that are ready to be committed to the repository"
+
+git add filename (To stage a single file)
+git add --all (To stage all files)
+git add --A (Shorthand to stage all files)
+git add . (Shorthand to stage all files)
+
+git rm --cached filename (To un stage a file)
+git rm --cached -r (To un stage all files)
+
+git commit -m "message goes here" (Commits staged files to current active branch --- save point for file)
+
+Just a change
