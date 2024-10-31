@@ -1,5 +1,9 @@
 =============== Basic Commands ================
 
+git help --all (Help for all commands)
+git command -help (Help for specific command)
+git commit -help (Help for commit command)
+
 git -v (To check the git version)
 
 git config --global user.name "username" (Set global git username configuration)
@@ -9,6 +13,14 @@ git config --global user.email"email here" (Set global git email configuration)
 git init (Initiate empty git repository)
 
 git status (Checks the status of the repository e.g On what branch, Number of commits, tracked and untracked files in repository)
+
+git status --short (Checks the status of the repository with ??, M, A and D letters)
+
+Note: Short status flags are:
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
 
 =============== Staging and committing Files ================
 __"Staging means adding files that are ready to be committed to the repository"
@@ -23,4 +35,13 @@ git rm --cached -r (To un stage all files)
 
 git commit -m "message goes here" (Commits staged files to current active branch --- save point for file)
 
-Just a change
+git commit -a -m "Committing without staging files"
+
+git log (To view the history of the commits)
+
+=============== Branching ================
+__"Branch is the separate version of your current repository"
+
+git branch (To list all the branches)
+git branch branch-name-here (Create new branch)
+git checkout branch-name-here (Select  branch)
