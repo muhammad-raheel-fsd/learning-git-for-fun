@@ -45,3 +45,5 @@ __"Branch is the separate version of your current repository"
 git branch (To list all the branches)
 git branch branch-name-here (Create new branch)
 git checkout branch-name-here (Select  branch)
+git checkout -b emergency-branch (Create an emergency branch and checkout to it)
+git merge branch-name (Merge branch to current branch)
