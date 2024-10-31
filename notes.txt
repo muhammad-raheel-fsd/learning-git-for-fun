@@ -1,0 +1,10 @@
+git -v (To check the git version)
+
+git config --global user.name "username" (Set global git username configuration)
+
+git config --global user.email"email here" (Set global git email configuration)
+
+git init (Initiate empty git repository)
+
+git status (Checks the status of the repository e.g On what branch, Number of commits, tracked and untracked files in repository)
+
